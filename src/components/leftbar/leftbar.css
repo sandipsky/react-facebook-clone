@@ -1,0 +1,50 @@
+.leftbar
+{
+    /* width: 25%; */
+    flex: 3;
+    /* min-height: calc(100vh - 56px); */
+    /* border: 1px solid green; */
+    height: calc(100vh - 64px);
+    position: sticky;
+    top: 64px;
+}
+.leftbarwrapper
+{
+    padding: 0 10px;
+    
+}
+.list
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.listitem
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 80%;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+.listitem:hover
+{
+    background-color: #e4e6e9;
+}
+.itemicon
+{
+    margin-right: 15px;
+}
+.itemtext
+{
+    padding: 0;
+    font-weight: 600;
+}
+.link
+{
+    color: #000;
+    text-decoration: none;
+}

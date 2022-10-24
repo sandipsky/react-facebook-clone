@@ -1,0 +1,39 @@
+.rightbar
+{
+    flex: 3;
+    padding-left: 20px;
+    height: calc(100vh - 64px);
+    position: sticky;
+    top: 64px;
+}
+.heading
+{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactinput
+{
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    background-color: #fff;
+    color: gray;
+}
+.contactinput:focus, .contactinput:hover
+{
+    background-color: #e4e6e9;
+
+}
+.contactlist
+{
+    list-style: none;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}

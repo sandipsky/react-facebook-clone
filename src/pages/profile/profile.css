@@ -1,0 +1,91 @@
+.profilecontainer
+{
+    display: flex;
+    width: 100%;
+    margin-top: 64px;
+}
+.profileright
+{
+    flex: 9;
+    /* border: 1px solid red; */
+    padding: 0 10px;
+    
+}
+
+.profilesection
+{
+    height: 320px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.profilecover
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileimg
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 43%;
+    top: 180px;
+    border: 3px solid white;
+}
+.profileinfo
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.aboutcontainer
+{
+    
+   
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about
+{
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,1);
+    margin: 20px 0;
+}
+.about ul
+{
+    list-style: none;
+    margin: 15px 0;
+    padding: 0;
+}
+.about ul li
+{
+    margin: 5px 0;
+    font-size: 18px;
+}
+.about span
+{
+    font-weight: 500;
+}
+.profilebottom
+{
+    width: 70%;
+}
+
+.postcontainer
+{
+    width: 70%;
+}
